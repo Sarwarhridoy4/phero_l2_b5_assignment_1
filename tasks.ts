@@ -11,11 +11,9 @@ function formatString(input: string, toUpper: boolean = true): string {
 // output based on cases
 
 const result1 = formatString("Hello to next level Development");
-console.log("Result when default:", result1);
 const result2 = formatString("Hello to next level Development", true);
-console.log("Result when true :", result2);
 const result3 = formatString("Hello to next level Development", false);
-console.log("Result when false :", result3);
+
 
 function filterByRating(
   items: { name: string; rating: number }[]
@@ -31,7 +29,9 @@ const items = [
 ];
 
 const filteredItems = filterByRating(items);
-console.log("Filtered Items:", filteredItems);
+
+
+
 
 function concatenateArrays<T>(...arrays: T[][]): T[] {
   return arrays.flat();
@@ -43,7 +43,9 @@ const array2 = [4, 9, 6];
 const array3 = [0, 8, 9];
 
 const concatenatedArray = concatenateArrays(array1, array2, array3);
-console.log("Concatenated Array:", concatenatedArray);
+
+
+
 
 class Vehicle {
   private make: string;
@@ -74,8 +76,10 @@ class Car extends Vehicle {
 
 // Example usage:
 const myCar: Car = new Car("Tesla", 2020, "EV404");
-console.log(myCar.getInfo());
-console.log(myCar.getModel());
+
+
+
+
 
 function processValue(value: string | number): number {
   if (typeof value === "string") {
@@ -86,9 +90,9 @@ function processValue(value: string | number): number {
   throw new Error("Invalid input type");
 }
 
-// Example usage:
-console.log(processValue("hello"));
-console.log(processValue(10));
+
+
+
 
 interface Product {
   name: string;
@@ -112,7 +116,10 @@ const products = [
 ];
 
 const mostExpensiveProduct = getMostExpensiveProduct(products);
-console.log("Most Expensive Product:", mostExpensiveProduct);
+
+
+
+
 
 enum Day {
   Monday,
@@ -134,9 +141,10 @@ function getDayType(day: Day): string {
   }
 }
 
-// Example usage:
-console.log(getDayType(Day.Monday));
-console.log(getDayType(Day.Saturday));
+
+
+
+
 
 async function squareAsync(n: number): Promise<number> {
   return new Promise((resolve, reject) => {
@@ -150,6 +158,5 @@ async function squareAsync(n: number): Promise<number> {
   });
 }
 
-// Example usage:
-squareAsync(4).then(console.log);
-squareAsync(-3).catch(console.error);
+
+
