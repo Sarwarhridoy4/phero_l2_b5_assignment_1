@@ -1,0 +1,24 @@
+{
+  "name": "phero_l2_b5_assignment_1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "serve": "ts-node-dev --respawn --transpile-only tasks.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sarwarhridoy4/phero_l2_b5_assignment_1.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Sarwarhridoy4/phero_l2_b5_assignment_1/issues"
+  },
+  "homepage": "https://github.com/Sarwarhridoy4/phero_l2_b5_assignment_1#readme",
+  "devDependencies": {
+    "ts-node-dev": "^2.0.0"
+  }
+}
