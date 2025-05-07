@@ -58,7 +58,7 @@ let age = 25;
 - 🛡️ প্রকারভেদ অনুযায়ী নিরাপত্তা বজায় থাকে
 
 ```ts
-let name:string = " Anika";
+let name = "Anika";
 name = 42; // ⚠️ Error Type' number' isn't assignable to class' string'
 ```
 
