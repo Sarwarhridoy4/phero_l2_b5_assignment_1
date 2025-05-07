@@ -8,11 +8,9 @@ function formatString(input: string, toUpper: boolean = true): string {
   return result;
 }
 
-// output based on cases
 
-const result1 = formatString("Hello to next level Development");
-const result2 = formatString("Hello to next level Development", true);
-const result3 = formatString("Hello to next level Development", false);
+
+
 
 
 function filterByRating(
@@ -21,29 +19,12 @@ function filterByRating(
   return items.filter((item) => item.rating >= 4);
 }
 
-// Example usage:
-const items = [
-  { name: "Tv", rating: 4 },
-  { name: "Cooler", rating: 2 },
-  { name: "Vox Wagon", rating: 5 },
-];
-
-const filteredItems = filterByRating(items);
-
 
 
 
 function concatenateArrays<T>(...arrays: T[][]): T[] {
   return arrays.flat();
 }
-
-// Example usage:
-const array1 = [1, 2, 5];
-const array2 = [4, 9, 6];
-const array3 = [0, 8, 9];
-
-const concatenatedArray = concatenateArrays(array1, array2, array3);
-
 
 
 
@@ -74,11 +55,6 @@ class Car extends Vehicle {
   }
 }
 
-// Example usage:
-const myCar: Car = new Car("Tesla", 2020, "EV404");
-
-
-
 
 
 function processValue(value: string | number): number {
@@ -89,6 +65,7 @@ function processValue(value: string | number): number {
   }
   throw new Error("Invalid input type");
 }
+
 
 
 
@@ -107,15 +84,6 @@ function getMostExpensiveProduct(products: Product[]): Product | null {
     product.price > max.price ? product : max
   );
 }
-
-// Example usage:
-const products = [
-  { name: "Book", price: 240 },
-  { name: "Paper", price: 10 },
-  { name: "Bag", price: 50 },
-];
-
-const mostExpensiveProduct = getMostExpensiveProduct(products);
 
 
 
