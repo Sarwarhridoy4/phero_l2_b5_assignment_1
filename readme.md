@@ -102,9 +102,10 @@ const person: C = {
 
 ## 🔁 তুলনা
 
-| Column 1 | Column 2 | Column 3 |
+| Aspect | Union (|) | Intersection (&) |
 |----------|----------|----------|
 | Row 1C1  | Row 1C2  | Row 1C3  |
+| Row 2C1  | Row 2C2  | Row 2C3  |
 | Row 2C1  | Row 2C2  | Row 2C3  |
 
 
