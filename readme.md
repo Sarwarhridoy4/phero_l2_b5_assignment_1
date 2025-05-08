@@ -102,11 +102,11 @@ const person: C = {
 
 ## 🔁 তুলনা
 
-| Aspect         | Union (|)                                | Intersection (&)                                       |
-|----------------|------------------------------------------|--------------------------------------------------------|
-| Function       | Picks any one from multiple types        | Combines multiple types to form a hybrid               |
-| Why we use it  | Flexibility                              | Strict combination                                     |
-| Example        | `string | number` → either string or number | `{ name: string } & { age: number }` → both required|
+| Column 1 | Column 2 | Column 3 |
+|----------|----------|----------|
+| Row 1C1  | Row 1C2  | Row 1C3  |
+| Row 2C1  | Row 2C2  | Row 2C3  |
+
 
 
 
